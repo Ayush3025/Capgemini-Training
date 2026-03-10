@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.galgotias</groupId>
+	<artifactId>hibernate-comapny</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Hibernate Demo</name>
+	<properties>
+		<maven.compiler.release>17</maven.compiler.release>
+	</properties>
+	<!-- Source: https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.4.10.Final</version>
+			
+		</dependency>
+		<!-- Source:
+		https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.transaction</groupId>
+			<artifactId>jakarta.transaction-api</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,5 @@
+com\galgotias\model\Supply.class
+com\galgotias\model\Supplier.class
+com\galgotias\Main.class
+com\galgotias\EntityManagerFactoryProvider.class
+com\galgotias\model\Item.class
