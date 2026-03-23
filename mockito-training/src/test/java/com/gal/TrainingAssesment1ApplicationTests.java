@@ -1,10 +1,10 @@
-package com.galgotias.Training_Project;
+package com.gal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TrainingProjectApplicationTests {
+class TrainingAssesment1ApplicationTests {
 
 	@Test
 	void contextLoads() {
